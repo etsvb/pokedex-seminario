@@ -20,7 +20,7 @@ O projeto permite gerenciar Pokémon, criar times, batalhar contra NPCs e Pokém
 
 | Pokémon | Tipo       | Nível | Imagem |
 |---------|-----------|-------|--------|
-| Pikachu | ⚡ Elétrico | 5     | ![Pikachu](https://raw.githubusercontent.com/USERNAME/REPO/main/images/pikachu.png) |
+| Pikachu | ⚡ Elétrico | 5     | ![Pikachu](https://i.pinimg.com/originals/a7/a8/d0/a7a8d06c754cfbbbc37e64cb118c513c.gif) |
 | Bulbasaur | 🌱 Planta | 4     | ![Bulbasaur](https://raw.githubusercontent.com/USERNAME/REPO/main/images/bulbasaur.png) |
 | Charmander | 🔥 Fogo  | 6     | ![Charmander](https://raw.githubusercontent.com/USERNAME/REPO/main/images/charmander.png) |
 
