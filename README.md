@@ -1,11 +1,11 @@
-# Pokédex Avançada em Python 🐾
+# Pokédex Avançada em Python 
 
 Uma Pokédex interativa construída em **Python** utilizando **estruturas de dados dinâmicas**.  
 O projeto permite gerenciar Pokémon, criar times, batalhar contra NPCs e Pokémon selvagens, e capturar novos Pokémon.
 
 ---
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
 - Adicionar, remover e listar Pokémon na Pokédex  
 - Criar e gerenciar **múltiplos times** de Pokémon  
@@ -16,18 +16,21 @@ O projeto permite gerenciar Pokémon, criar times, batalhar contra NPCs e Pokém
 
 ---
 
-## 🗂 Estrutura do Projeto
+## Estrutura do Projeto
 
 pokedex-avancada/
 │
+
 ├─ main.py # Código principal da Pokédex
+
 ├─ README.md # Este arquivo
+
 └─ .gitignore # (Opcional)
 
 
 ---
 
-## 🐱‍👤 Classes e Funções
+## Classes e Funções
 
 | Classe/Função           | Descrição |
 |-------------------------|-----------|
@@ -41,7 +44,7 @@ pokedex-avancada/
 
 ---
 
-## 📊 Estruturas de Dados Usadas
+## Estruturas de Dados Usadas
 
 | Estrutura          | Onde é usada                      | Função                                                                 |
 |-------------------|----------------------------------|------------------------------------------------------------------------|
@@ -51,7 +54,7 @@ pokedex-avancada/
 
 ---
 
-## 🔹 Fluxo de Navegação do Programa
+## Fluxo de Navegação do Programa
 
 
 graph TD
@@ -75,20 +78,20 @@ Menu Principal
 4. Menu de Times e Batalhas
 0. Sair
 
-Criar Time
+## Criar Time
 Nome do novo time: Time Pikachu
 Time Time Pikachu criado!
 
-Adicionar Pokémon ao Time
+## Adicionar Pokémon ao Time
 Nome do Pokémon da Pokédex: Pikachu
 Pikachu adicionado ao time Time Pikachu!
 
-Batalha de Time
+## Batalha de Time
 Um Pokémon selvagem apareceu: Rattata (Nv 4) - Tipo: Normal
 Pikachu entra na batalha!
 Pikachu venceu a batalha!
 Você ganhou Eevee do sorteio e adicionou à Pokédex!
 
-Listar Time
-=== Time Time Pikachu ===
+## Listar Time
+Time Time Pikachu 
 Pikachu - Tipo: Elétrico - Nível: 5
