@@ -84,12 +84,16 @@ Time Time Pikachu criado!
 
 ## Adicionar Pokémon ao Time
 Nome do Pokémon da Pokédex: Pikachu
+
 Pikachu adicionado ao time Time Pikachu!
 
 ## Batalha de Time
 Um Pokémon selvagem apareceu: Rattata (Nv 4) - Tipo: Normal
+
 Pikachu entra na batalha!
+
 Pikachu venceu a batalha!
+
 Você ganhou Eevee do sorteio e adicionou à Pokédex!
 
 ## Listar Time
