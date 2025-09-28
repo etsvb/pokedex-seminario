@@ -88,6 +88,7 @@ Menu Principal
 
 ## Criar Time
 Nome do novo time: Time Pikachu
+
 Time Time Pikachu criado!
 
 ## Adicionar Pokémon ao Time
