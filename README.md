@@ -36,11 +36,11 @@ O projeto utiliza:
 ---
 
 ##  Pokémon Pré-Cadastrados
-| Nº  | Nome       | Tipo      |
-|----:|------------|-----------|
-| 001 | Bulbasaur  | Planta    |
-| 004 | Charmander | Fogo      |
-| 025 | Pikachu    | Elétrico  |
+| Nº  | Nome       | Tipo      | Gif       |
+|----:|------------|-----------|-----------|
+| 001 | Bulbasaur  | Planta    |<img src="https://i.pinimg.com/originals/e5/35/ad/e535ad30166d0121722774e0275bef3f.gif" width="80"> |
+| 004 | Charmander | Fogo      |<img src="https://i.pinimg.com/originals/48/1e/af/481eafa3a380198012f80595c0dafeec.gif" width="50"> |
+| 025 | Pikachu    | Elétrico  |<img src="https://i.pinimg.com/originals/a7/a8/d0/a7a8d06c754cfbbbc37e64cb118c513c.gif" width="50"> |
 
 *(Outros Pokémon também estão incluídos no código.)*
 
