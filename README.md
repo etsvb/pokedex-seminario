@@ -1,33 +1,33 @@
 # 📜 Pokedex em Python
 
 Uma aplicação de terminal em **Python 3** que simula uma **Pokedex** com sistema de captura e **Box Pokémon**, permitindo:
-- 📖 **Listar** todos os Pokémon cadastrados (mesmo os bloqueados).
-- 🕵️ **Buscar** Pokémon por nome ou número.
-- 🎯 **Capturar** Pokémon com **níveis aleatórios**.
-- 📦 **Guardar ou descartar** cada captura individualmente.
-- ❌ **Remover** Pokémon do Box pelo ID único.
+-  **Listar** todos os Pokémon cadastrados (mesmo os bloqueados).
+-  **Buscar** Pokémon por nome ou número.
+-  **Capturar** Pokémon com **níveis aleatórios**.
+-  **Guardar ou descartar** cada captura individualmente.
+-  **Remover** Pokémon do Box pelo ID único.
 
 Este projeto demonstra o uso de **estruturas de dados dinâmicas** (listas, dicionários e objetos), permitindo adicionar e remover elementos em tempo real.
 
 ---
 
-## 🚀 Funcionalidades
-✅ **Pokedex**  
+##  Funcionalidades
+ **Pokedex**  
 - Mostra todas as espécies pré-cadastradas.  
 - Desbloqueia automaticamente quando um Pokémon é capturado pela primeira vez.
 
-✅ **Captura**  
+ **Captura**  
 - Cada captura gera um **nível aleatório** (entre 5 e 50).  
 - Permite **capturar várias cópias** da mesma espécie.  
 - O jogador escolhe guardar no **Box** ou descartar.
 
-✅ **Box Pokémon**  
+ **Box Pokémon**  
 - Lista todos os Pokémon capturados individualmente.  
 - Cada captura possui um **ID único**, permitindo remoção específica.
 
 ---
 
-## 🧩 Estrutura de Dados
+##  Estrutura de Dados
 O projeto utiliza:
 - **Dicionário (`dict`)**: para armazenar as espécies da Pokedex, permitindo buscas rápidas (`numero → Pokemon`).
 - **Lista (`list`)**: para guardar capturas individuais, que podem ser adicionadas ou removidas dinamicamente.
@@ -35,7 +35,7 @@ O projeto utiliza:
 
 ---
 
-## 📦 Pokémon Pré-Cadastrados
+##  Pokémon Pré-Cadastrados
 | Nº  | Nome       | Tipo      |
 |----:|------------|-----------|
 | 001 | Bulbasaur  | Planta    |
@@ -46,12 +46,12 @@ O projeto utiliza:
 
 ---
 
-## 🔧 Requisitos
+##  Requisitos
 - **Python 3.7+**
 
 ---
 
-## ▶️ Como Executar
+##  Como Executar
 1. **Clone o repositório**
    ```bash
    git clone https://github.com/seu-usuario/pokedex-python.git
@@ -61,7 +61,7 @@ O projeto utiliza:
 python pokedex.py
 
 3. Use o menu interativo
-
+```bash
 1 → Listar Pokedex
 
 2 → Capturar Pokémon
@@ -75,7 +75,7 @@ python pokedex.py
 6 → Buscar por nome
 
 0 → Sair
-
+```
 Exemplo de Uso
  ```bash
 === MENU POKEDEX ===
@@ -94,6 +94,7 @@ Deseja guardar no Box? (s/n): s
 ````
 
 3 - Listar Box
-📦 BOX POKÉMON:
+```bash
+ BOX POKÉMON:
 1. [a1b2c3] #025 - Pikachu Lv.22 (Tipo Elétrico)
 
