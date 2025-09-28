@@ -77,7 +77,7 @@ python pokedex.py
 0 → Sair
 
 Exemplo de Uso
-
+ ```bash
 === MENU POKEDEX ===
 
 2 - Capturar Pokémon
@@ -91,6 +91,7 @@ Digite o número do Pokémon: 25
 Deseja guardar no Box? (s/n): s
 
 ✅ Pikachu Lv.22 foi adicionado ao Box (ID a1b2c3)!
+````
 
 3 - Listar Box
 📦 BOX POKÉMON:
