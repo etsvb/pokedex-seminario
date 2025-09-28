@@ -68,7 +68,7 @@ python pokedex.py
 
 3 → Listar Box
 
-4 → Remover Pokémon do Box
+4 → Remover Pokémon da Box
 
 5 → Buscar por número
 
@@ -90,7 +90,7 @@ Digite o número do Pokémon: 25
 
 Deseja guardar no Box? (s/n): s
 
-✅ Pikachu Lv.22 foi adicionado ao Box (ID a1b2c3)!
+✅ Pikachu Lv.22 foi adicionado à Box (ID a1b2c3)!
 ````
 
 3 - Listar Box
