@@ -53,7 +53,7 @@ pokedex-avancada/
 
 ## 🔹 Fluxo de Navegação do Programa
 
-```mermaid
+
 graph TD
 A[Menu Principal] --> B[Pokédex]
 A --> C[Times e Batalhas]
