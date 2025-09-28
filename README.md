@@ -1,131 +1,91 @@
-# Pokédex Avançada em Python 
+# 📜 Pokedex em Python
 
-Uma Pokédex interativa construída em **Python** utilizando **estruturas de dados dinâmicas**.  
-O projeto permite gerenciar Pokémon, criar times, batalhar contra NPCs e Pokémon selvagens, e capturar novos Pokémon.
+Uma aplicação de terminal em **Python 3** que simula uma **Pokedex** com sistema de captura e **Box Pokémon**, permitindo:
+- 📖 **Listar** todos os Pokémon cadastrados (mesmo os bloqueados).
+- 🕵️ **Buscar** Pokémon por nome ou número.
+- 🎯 **Capturar** Pokémon com **níveis aleatórios**.
+- 📦 **Guardar ou descartar** cada captura individualmente.
+- ❌ **Remover** Pokémon do Box pelo ID único.
 
----
-
-## Funcionalidades
-
-- Adicionar, remover e listar Pokémon na Pokédex  
-- Criar e gerenciar **múltiplos times** de Pokémon  
-- Adicionar/remover Pokémon em times  
-- Batalhar com times contra Pokémon selvagens  
-- Ganhar Pokémon sorteados após vitórias  
-- Submenus interativos sem reiniciar o menu principal  
+Este projeto demonstra o uso de **estruturas de dados dinâmicas** (listas, dicionários e objetos), permitindo adicionar e remover elementos em tempo real.
 
 ---
 
-##  Pokémon Iniciais na Pokédex
+## 🚀 Funcionalidades
+✅ **Pokedex**  
+- Mostra todas as espécies pré-cadastradas.  
+- Desbloqueia automaticamente quando um Pokémon é capturado pela primeira vez.
 
-| Pokémon | Tipo       | Nível | Imagem |
-|---------|-----------|-------|--------|
-| Pikachu | ⚡ Elétrico | 5     | <img src="https://i.pinimg.com/originals/a7/a8/d0/a7a8d06c754cfbbbc37e64cb118c513c.gif" width="50"/> |
-| Bulbasaur | 🌱 Planta | 4     | <img src="https://i.pinimg.com/originals/e5/35/ad/e535ad30166d0121722774e0275bef3f.gif" width="80"/>  |
-| Charmander | 🔥 Fogo  | 6     | <img src="https://i.pinimg.com/originals/48/1e/af/481eafa3a380198012f80595c0dafeec.gif" width="50"/> |
+✅ **Captura**  
+- Cada captura gera um **nível aleatório** (entre 5 e 50).  
+- Permite **capturar várias cópias** da mesma espécie.  
+- O jogador escolhe guardar no **Box** ou descartar.
 
----
-
-## Estrutura do Projeto
-
-│pokedex-avancada/
-
-
-├─ main.py # Código principal da Pokédex
-
-├─ README.md # Este arquivo
-
-└─ .gitignore # (Opcional)
-
+✅ **Box Pokémon**  
+- Lista todos os Pokémon capturados individualmente.  
+- Cada captura possui um **ID único**, permitindo remoção específica.
 
 ---
 
-## Classes e Funções
-
-| Classe/Função           | Descrição |
-|-------------------------|-----------|
-| `Pokemon`               | Representa cada Pokémon com `nome`, `tipo`, `nivel` e `next` (para lista encadeada) |
-| `Pokedex`               | Lista encadeada de Pokémon. Métodos: `adicionar()`, `remover()`, `listar()`, `buscar()` |
-| `Time`                  | Lista encadeada de Pokémon de um time. Métodos: `adicionar_pokemon()`, `listar()`, `get_pokemons()` |
-| `SistemaTimes`          | Gerencia múltiplos times. Métodos: `criar_time()`, `listar_times()`, `selecionar_time()` |
-| `gerar_npc()`           | Gera Pokémon selvagem aleatório para batalhas |
-| `sorteio_pokemon()`     | Gera Pokémon aleatório como prêmio de vitória |
-| `batalha_de_times()`    | Simula batalha entre um time e um Pokémon selvagem |
+## 🧩 Estrutura de Dados
+O projeto utiliza:
+- **Dicionário (`dict`)**: para armazenar as espécies da Pokedex, permitindo buscas rápidas (`numero → Pokemon`).
+- **Lista (`list`)**: para guardar capturas individuais, que podem ser adicionadas ou removidas dinamicamente.
+- **Classes**: para modelar espécies (`Pokemon`) e capturas (`Captura`), separando conceitos de **espécie** e **indivíduo**.
 
 ---
 
-## Estruturas de Dados Usadas
+## 📦 Pokémon Pré-Cadastrados
+| Nº  | Nome       | Tipo      |
+|----:|------------|-----------|
+| 001 | Bulbasaur  | Planta    |
+| 004 | Charmander | Fogo      |
+| 025 | Pikachu    | Elétrico  |
 
-| Estrutura          | Onde é usada                      | Função                                                                 |
-|-------------------|----------------------------------|------------------------------------------------------------------------|
-| Lista encadeada     | Pokédex e Times                   | Armazenar Pokémon dinamicamente, permitindo adicionar/remover fácil.   |
-| Lista simples       | SistemaTimes                       | Armazena múltiplos times.                                             |
-| Funções aleatórias | `random.randint()`                | Determinar resultado de batalhas e Pokémon sorteados.                 |
+*(Outros Pokémon também estão incluídos no código.)*
 
 ---
 
-## Fluxo de Navegação do Programa
+## 🔧 Requisitos
+- **Python 3.7+**
 
+---
 
-graph TD
-A[Menu Principal] --> B[Pokédex]
+## ▶️ Como Executar
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/pokedex-python.git
+   cd pokedex-python
 
-A --> C[Times e Batalhas]
+2. Execute o programa
+python pokedex.py
 
-B --> D[Adicionar Pokémon]
+3. Use o menu interativo
 
-B --> E[Remover Pokémon]
+1 → Listar Pokedex
 
-B --> F[Listar Pokémon]
+2 → Capturar Pokémon
 
-C --> G[Criar Time]
+3 → Listar Box
 
-C --> H[Adicionar Pokémon a Time]
+4 → Remover Pokémon do Box
 
-C --> I[Listar Times]
+5 → Buscar por número
 
-C --> J[Batalhar com Time]
+6 → Buscar por nome
 
-## Exemplos de Uso
-Menu Principal
+0 → Sair
 
-=== Menu Principal da Pokédex ===
-1. Adicionar Pokémon à Pokédex
-2. Remover Pokémon da Pokédex
-3. Listar Pokémon
-4. Menu de Times e Batalhas
-0. Sair
+Exemplo de Uso
+=== MENU POKEDEX ===
+2 - Capturar Pokémon
+Digite o número do Pokémon: 25
+🎉 Pikachu foi DESBLOQUEADO na Pokedex!
+🌟 Você encontrou um Pikachu Lv.22!
+Deseja guardar no Box? (s/n): s
+✅ Pikachu Lv.22 foi adicionado ao Box (ID a1b2c3)!
 
-## Criar Time
-Nome do novo time: Time Pikachu
-
-Time Time Pikachu criado!
-
-## Adicionar Pokémon ao Time
-Nome do Pokémon da Pokédex: Pikachu
-
-Pikachu adicionado ao time Time Pikachu!
-
-## Batalha de Time
-Um Pokémon selvagem apareceu: Rattata (Nv 4) - Tipo: Normal
-
-Pikachu entra na batalha!
-
-Pikachu venceu a batalha!
-
-Você ganhou Eevee do sorteio e adicionou à Pokédex!
-
-## Listar Time
-Time Time Pikachu 
-Pikachu - Tipo: Elétrico - Nível: 5
-
-## Observações
-
-Pokémon adicionados aos times são cópias da Pokédex.
-
-As batalhas são aleatórias, combinando nível e sorte.
-
-É possível criar vários times e batalhar com qualquer um deles.
-
-Submenus permitem voltar ao menu principal sem reiniciar o programa.
+3 - Listar Box
+📦 BOX POKÉMON:
+1. [a1b2c3] #025 - Pikachu Lv.22 (Tipo Elétrico)
 
