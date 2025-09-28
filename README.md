@@ -76,7 +76,7 @@ C --> I[Listar Times]
 
 C --> J[Batalhar com Time]
 
-📝 Exemplos de Uso
+## Exemplos de Uso
 Menu Principal
 
 === Menu Principal da Pokédex ===
