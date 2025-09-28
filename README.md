@@ -1,4 +1,4 @@
-# <img src="https://i.pinimg.com/originals/3c/06/59/3c06599306cca1e170ce8df10949cf91.gif" width="40"> Pokedex em Python
+# <img src="https://i.pinimg.com/originals/d9/cb/c3/d9cbc37ddc1843e3febf945180f60602.gif" width="40"> Pokedex em Python
 
 Uma aplicação de terminal em **Python 3** que simula uma **Pokedex** com sistema de captura e **Box Pokémon**, permitindo:
 -  **Listar** todos os Pokémon cadastrados (mesmo os bloqueados).
@@ -11,9 +11,7 @@ Este projeto demonstra o uso de **estruturas de dados dinâmicas** (listas, dici
 
 ---
 
- <img src="https://i.pinimg.com/originals/3c/06/59/3c06599306cca1e170ce8df10949cf91.gif" width="40">
- 
- ## Funcionalidades
+ ## <img src="https://i.pinimg.com/originals/3c/06/59/3c06599306cca1e170ce8df10949cf91.gif" width="40">  Funcionalidades
 
  **Pokedex**  
 - Mostra todas as espécies pré-cadastradas.  
