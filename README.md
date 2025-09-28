@@ -18,8 +18,8 @@ O projeto permite gerenciar Pokémon, criar times, batalhar contra NPCs e Pokém
 
 ## Estrutura do Projeto
 
-pokedex-avancada/
-│
+│pokedex-avancada/
+
 
 ├─ main.py # Código principal da Pokédex
 
@@ -59,13 +59,21 @@ pokedex-avancada/
 
 graph TD
 A[Menu Principal] --> B[Pokédex]
+
 A --> C[Times e Batalhas]
+
 B --> D[Adicionar Pokémon]
+
 B --> E[Remover Pokémon]
+
 B --> F[Listar Pokémon]
+
 C --> G[Criar Time]
+
 C --> H[Adicionar Pokémon a Time]
+
 C --> I[Listar Times]
+
 C --> J[Batalhar com Time]
 
 📝 Exemplos de Uso
