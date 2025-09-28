@@ -16,6 +16,16 @@ O projeto permite gerenciar Pokémon, criar times, batalhar contra NPCs e Pokém
 
 ---
 
+##  Pokémon Iniciais na Pokédex
+
+| Pokémon | Tipo       | Nível | Imagem |
+|---------|-----------|-------|--------|
+| Pikachu | ⚡ Elétrico | 5     | ![Pikachu](https://raw.githubusercontent.com/USERNAME/REPO/main/images/pikachu.png) |
+| Bulbasaur | 🌱 Planta | 4     | ![Bulbasaur](https://raw.githubusercontent.com/USERNAME/REPO/main/images/bulbasaur.png) |
+| Charmander | 🔥 Fogo  | 6     | ![Charmander](https://raw.githubusercontent.com/USERNAME/REPO/main/images/charmander.png) |
+
+---
+
 ## Estrutura do Projeto
 
 │pokedex-avancada/
@@ -108,3 +118,14 @@ Você ganhou Eevee do sorteio e adicionou à Pokédex!
 ## Listar Time
 Time Time Pikachu 
 Pikachu - Tipo: Elétrico - Nível: 5
+
+## Observações
+
+Pokémon adicionados aos times são cópias da Pokédex.
+
+As batalhas são aleatórias, combinando nível e sorte.
+
+É possível criar vários times e batalhar com qualquer um deles.
+
+Submenus permitem voltar ao menu principal sem reiniciar o programa.
+
