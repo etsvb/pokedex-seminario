@@ -35,9 +35,8 @@ O projeto utiliza:
 - **Classes**: para modelar espécies (`Pokemon`) e capturas (`Captura`), separando conceitos de **espécie** e **indivíduo**.
 
 ---
-<img src="https://i.pinimg.com/originals/46/04/8d/46048da1b8533b654955f33e5cf40438.gif" width="80">
+##  <img src="https://i.pinimg.com/originals/46/04/8d/46048da1b8533b654955f33e5cf40438.gif" width="80"> Pokémon Pré-Cadastrados
 
-##  Pokémon Pré-Cadastrados
 | Nº  | Nome       | Tipo      | Gif       |
 |----:|------------|-----------|-----------|
 | 001 | Bulbasaur  | Planta    |<img src="https://i.pinimg.com/originals/e5/35/ad/e535ad30166d0121722774e0275bef3f.gif" width="80"> |
