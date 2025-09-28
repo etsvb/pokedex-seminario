@@ -84,9 +84,9 @@ Exemplo de Uso
 
 Digite o número do Pokémon: 25
 
-🎉 Pikachu foi DESBLOQUEADO na Pokedex!
+ Pikachu foi DESBLOQUEADO na Pokedex!
 
-🌟 Você encontrou um Pikachu Lv.22!
+ Você encontrou um Pikachu Lv.22!
 
 Deseja guardar no Box? (s/n): s
 
