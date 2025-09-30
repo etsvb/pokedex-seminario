@@ -59,43 +59,37 @@ O projeto utiliza:
    cd pokedex-python
 
 2. Execute o programa
-python pokedex.py
+python `pokedex_cute.py`
 
 3. Use o menu interativo
 ```bash
-1 → Listar Pokedex
-
-2 → Capturar Pokémon
-
-3 → Listar Box
-
-4 → Remover Pokémon da Box
-
-5 → Buscar por número
-
-6 → Buscar por nome
-
-0 → Sair
+=========================
+      MENU POKEDEX
+=========================
+1. Capturar Pokémon
+2. Mostrar Pokedex
+3. Mostrar Box
+4. Remover Pokémon da Box
+5. Buscar Pokémon
+0. Sair
+--------------------------
+Digite sua escolha (ou 2 para ver as opções)
 ```
 Exemplo de Uso
  ```bash
 === MENU POKEDEX ===
 
-2 - Capturar Pokémon
+1 - Capturar Pokémon
 
-Digite o número do Pokémon: 25
+Qual o número do Pokémon para tentar capturar?: 001
 
- Pikachu foi DESBLOQUEADO na Pokedex!
-
- Você encontrou um Pikachu Lv.22!
-
-Deseja guardar no Box? (s/n): s
-
-✅ Pikachu Lv.22 foi adicionado à Box (ID a1b2c3)!
+Deseja guardar o Pokémon na Box se captura for bem-sucedida? (S/N): s
+Parabéns! Você capturou e guardou um Bulbasour de Nível 29!
 ````
 
 3 - Listar Box
 ```bash
- BOX POKÉMON:
-1. [a1b2c3] #025 - Pikachu Lv.22 (Tipo Elétrico)
+ --- POKÉMONS NA BOX ---
+ID: 6uwuew2 | #001 Bulbasaur Lv.29
+----------------------------
 
