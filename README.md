@@ -12,6 +12,10 @@ Este projeto demonstra o uso de **estruturas de dados dinâmicas** (listas, dici
 
 ---
 
+## Interfaces gráficas usadas
+
+ 
+ 
  ## <img src="https://i.pinimg.com/originals/3c/06/59/3c06599306cca1e170ce8df10949cf91.gif" width="40">  Funcionalidades
 
  **Pokedex**  
