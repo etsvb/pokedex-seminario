@@ -1,6 +1,7 @@
 # <img src="https://i.pinimg.com/originals/d9/cb/c3/d9cbc37ddc1843e3febf945180f60602.gif" width="40"> Pokedex em Python
 
 Uma aplicação de terminal em **Python 3** que simula uma **Pokedex** com sistema de captura e **Box Pokémon**, permitindo:
+- **Adicionar** Pokémons novos.
 -  **Listar** todos os Pokémon cadastrados (mesmo os bloqueados).
 -  **Buscar** Pokémon por nome ou número.
 -  **Capturar** Pokémon com **níveis aleatórios**.
