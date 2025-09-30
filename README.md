@@ -14,7 +14,7 @@ Este projeto demonstra o uso de **estruturas de dados dinâmicas** (listas, dici
 
 ## Interfaces gráficas usadas
 
- 
+ ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) <img src="https://miro.medium.com/v2/1*AIlWq29GeP1eny3wA7aMgA.png" width="80">
  
  ## <img src="https://i.pinimg.com/originals/3c/06/59/3c06599306cca1e170ce8df10949cf91.gif" width="40">  Funcionalidades
 
