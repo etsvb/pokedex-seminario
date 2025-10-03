@@ -1,22 +1,19 @@
 # <img src="https://i.pinimg.com/originals/d9/cb/c3/d9cbc37ddc1843e3febf945180f60602.gif" width="40"> Pokedex em Python
 
-Uma aplicação de terminal em **Python 3** que simula uma **Pokedex** com sistema de captura e **Box Pokémon**, permitindo:
-- **Adicionar** Pokémons novos.
--  **Listar** todos os Pokémon cadastrados (mesmo os bloqueados).
--  **Buscar** Pokémon por nome ou número.
--  **Capturar** Pokémon com **níveis aleatórios**.
--  **Guardar ou descartar** cada captura individualmente.
--  **Remover** Pokémon do Box pelo ID único.
+| <img src="https://64.media.tumblr.com/ad2b88829d03f9f03e88134a0cfed516/c5a631b42bf6d503-b8/s400x600/29493c58d0f5cecf3ff204b60bea86528a2935fe.gif" alt="Pokedex" width="150"> | Uma aplicação de terminal em **Python 3** que simula uma **Pokedex** com sistema de captura e Box Pokémon, permitindo:<br><br> - **Adicionar** Pokémons novos.<br> - **Listar** todos os Pokémon cadastrados.<br> - **Buscar** Pokémon por nome ou número.<br> - **Capturar** Pokémon com *níveis aleatórios*.<br> - **Guardar** ou descartar cada captura individualmente.<br> - **Remover** Pokémon do Box pelo ID único.<br><br> |
+|---------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
 
 Este projeto demonstra o uso de **estruturas de dados dinâmicas** (listas, dicionários e objetos), permitindo adicionar e remover elementos em tempo real.
 
-Pokédex: Lista encadeada.
+**Pokédex: Lista encadeada.**
 
 ---
 
-## Interfaces gráficas usadas
+ ## Interfaces gráficas usadas
 
  ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) <img src="https://miro.medium.com/v2/1*AIlWq29GeP1eny3wA7aMgA.png" width="80">
+ </div>
  
  ## <img src="https://i.pinimg.com/originals/3c/06/59/3c06599306cca1e170ce8df10949cf91.gif" width="40">  Funcionalidades
 
