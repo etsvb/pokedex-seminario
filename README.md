@@ -64,7 +64,7 @@ O projeto utiliza:
    cd pokedex-python
 
 2. Execute o programa
-python `pokedex_cute.py`
+python `pokedex_core.py`
 
 3. Use o menu interativo
 ```bash
