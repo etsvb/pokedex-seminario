@@ -10,6 +10,8 @@ Uma aplicação de terminal em **Python 3** que simula uma **Pokedex** com siste
 
 Este projeto demonstra o uso de **estruturas de dados dinâmicas** (listas, dicionários e objetos), permitindo adicionar e remover elementos em tempo real.
 
+Pokédex: Lista encadeada.
+
 ---
 
 ## Interfaces gráficas usadas
