@@ -13,10 +13,9 @@ Este projeto demonstra o uso de **estruturas de dados dinâmicas** (listas, dici
 
 ---
 
- ## <img src="https://64.media.tumblr.com/e7ecce28a79842122e6faf8853183708/f72828b12c6f8d7f-b0/s400x600/bf4a0827f4c8edd3cfe27b1612834a2c6ad6e171.gif" width="50"> Interfaces gráficas usadas
+ ## <img src="https://64.media.tumblr.com/e7ecce28a79842122e6faf8853183708/f72828b12c6f8d7f-b0/s400x600/bf4a0827f4c8edd3cfe27b1612834a2c6ad6e171.gif" width="50"> Interface gráfica usada:
 
- ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) <img src="https://miro.medium.com/v2/1*AIlWq29GeP1eny3wA7aMgA.png" width="80">
- </div>
+ ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) 
  
  ## <img src="https://i.pinimg.com/originals/3c/06/59/3c06599306cca1e170ce8df10949cf91.gif" width="40">  Funcionalidades
 
@@ -40,6 +39,8 @@ O projeto utiliza:
 - **Dicionário (`dict`)**: para armazenar as espécies da Pokedex, permitindo buscas rápidas (`numero → Pokemon`).
 - **Lista (`list`)**: para guardar capturas individuais, que podem ser adicionadas ou removidas dinamicamente.
 - **Classes**: para modelar espécies (`Pokemon`) e capturas (`Captura`), separando conceitos de **espécie** e **indivíduo**.
+- **Núcleo**: `pokedex2.py` é o do projeto onde roda todo o código, também onde é definida as `classes` (pokemon, pokedex).
+- **Interfaces**: `pokededex_core.py` é a interface interativa com o usuário, também importa `classes` do arquivo `pokedex2.py`. `app.py` está armazenado todo o código para rodar no sistema de inferface Streamlit.
 
 ---
 ##  <img src="https://i.pinimg.com/originals/46/04/8d/46048da1b8533b654955f33e5cf40438.gif" width="80"> Pokémon Pré-Cadastrados
