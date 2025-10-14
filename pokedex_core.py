@@ -79,7 +79,7 @@ def main():
                 print("Entrada inválida para o número.")
 
         elif escolha == '6':
-            busca = input("Buscar por (N)úmero ou (O)ome? ").upper()
+            busca = input("Buscar por Número ou Nome? ").upper()
             if busca == 'N':
                 try:
                     num = int(input("Digite o número do Pokémon: "))
